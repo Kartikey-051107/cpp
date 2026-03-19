@@ -23,11 +23,15 @@ int main() {
         for (int i=0;i<m;i++){
            int  k=arr1[i];
            for(int j=0;j<n;j++){
-            if(k==arr2[i]){
+            if(k==arr2[j]){
                 if(printed>0){
-                    cout<<" ";
-                }
-                cout<<k;
+                    cout<<" ";}
+                      cout<<k;
+                printed ++;
+                arr2[j]=-1;
+            break;
+        
+              
             }
            }
         }
