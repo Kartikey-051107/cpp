@@ -9,7 +9,7 @@ int main(){
         cout<<"B";
     }
     else if(A==B){
-cout<<"equal";
+cout<<"Equal";
 
     }
 else{
